@@ -2,7 +2,7 @@ const request = require('request-promise');
 const cheerio = require('cheerio');
 const Crawler = require('crawler');
 
-var semana = [];
+//var semana = [];
 const crawpgFilha = new Crawler({
     rateLimit: 5000,
     callback: function (error, res, done) {
